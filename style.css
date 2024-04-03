@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#menu-lateral {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 270px;
+    height: 900px;
+    background-color: #5978E5; /* Cor de fundo azul */
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Texto centralizado */
+}
+
+#menu-lateral nav span {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#menu-lateral nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#menu-lateral nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-lateral nav ul button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+#menu-lateral nav ul button:hover {
+    background-color: #2980b9; /* Cor de fundo azul mais escura quando hover */
+}
+
+#menu-lateral .imagem {
+    width: 200px; /* Definindo a largura da imagem */
+    height: auto; /* Mantendo a proporção da altura automaticamente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+}
+
+.imagem-atendente {
+    width: 100px; /* Definindo a largura da imagem */
+    height: auto; /* Mantendo a proporção da altura automaticamente */
+    display: block; /* Exibir como bloco para aplicar margens automáticas */
+    margin: 0 auto 15px auto; /* Margens automáticas para centralizar a imagem horizontalmente */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+main {
+    margin-left: 250px; /* Margem à esquerda para deixar espaço para o menu lateral */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Exibir como flex container */
+}
+
+/* Estilizando as seções dentro do main */
+main section {
+    flex: 1; /* Distribuir o espaço disponível igualmente entre as seções */
+    margin-right: 20px; /* Espaçamento entre as seções */
+}
+
+/* Estilizando os botões dentro das seções */
+main button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    text-align: left;
+}
+
+/* Estilizando as imagens dentro dos botões */
+main button img {
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+}
+
+/* Estilizando a imagem do logo no rodapé */
+.logo-footer {
+    width: 100px; /* Definindo a largura da imagem */
+    height: auto; /* Mantendo a proporção da altura automaticamente */
+    margin-right: 20px; /* Margem à direita para espaçamento */
+    margin-bottom: 10px; /* Margem inferior para espaçamento */
+}
+
+
+
+.botao-section {
+    display: flex; /* Exibir como flex container para colocar os botões lado a lado */
+    justify-content: space-around; /* Distribuir o espaço entre os botões */
+}
+
+.botao-section button {
+    width: 255px; /* Largura do botão */
+    height: 157px; /* Altura do botão */
+    background-color: #f2f2f2; /* Fundo cinza */
+    border: none;
+    cursor: pointer;
+    display: flex; /* Exibir como flex container */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    border-radius: 10px; /* Adicionar bordas arredondadas */
+    padding: 10px; /* Adicionar preenchimento interno */
+}
+
+/* Estilizando as imagens dentro dos botões */
+.botao-section button img {
+    width: 55px; /* Largura da imagem (50% do botão) */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+/* Estilizando o texto */
+.botao-section button h1,
+.botao-section button h2 {
+    margin: 10px 0; /* Adicionar espaço entre h1 e h2 */
+}
+.botao-section a{
+    text-decoration: none; /* Remove o sublinhado por padrão */
+}
+
+.botao-section a:hover {
+        text-decoration: underline; /* Adiciona o sublinhado quando o mouse está sobre o hiperlink */
+}

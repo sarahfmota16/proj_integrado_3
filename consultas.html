@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_consultas.css">
+    <title>site</title>
+    
+</head>
+    
+
+<body>
+    <style>
+        .section-wrapper{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    </style>
+    <div id = "menu-lateral">
+        <nav>
+            <span>
+                PORTAL MED
+            </span>
+            <img src="./assets/imagem_atendente.png" alt="Imagem do Atendente" class="imagem-atendente">
+            <a>Mariana Bittencourt</a>
+            <a>Atendente</a>
+            <ul>
+                <button><li><a href="./index.html">Início</a></li></button>
+                <button><li><a>Consultas</a></li></button>
+                <button><li><a>Pacientes</a></li></button>
+                <button><li><a>Médicos</a></li></button>
+                <button><li><a>Sair</a></li></button>
+            </ul>
+        </nav>
+    </div>
+
+    <header>
+        <div class="header-content">
+            <h1><img src="./assets/imagem_consultas.png" alt="Consultas"> Consultas </h1>
+        </div>
+    </header>
+    
+    <main>
+     
+        <div class="section-wrapper">
+            <div class="filter-section">
+                <h1>Filtro de Pesquisa</h1>
+                <div class="filter-container">
+                    <div class="filter-element">
+                        <label for="element1">Elemento 1:</label>
+                        <input type="text" id="element1" name="element1">
+                    </div>
+                    <div class="filter-element">
+                        <label for="element2">Elemento 2:</label>
+                        <input type="text" id="element2" name="element2">
+                    </div>
+                    <div class="filter-element">
+                        <label for="element3">Elemento 3:</label>
+                        <input type="text" id="element3" name="element3">
+                    </div>
+                    <div class="filter-element">
+                        <label for="element4">Elemento 4:</label>
+                        <input type="text" id="element4" name="element4">
+                    </div>
+                    <div class="filter-element">
+                        <label for="element5">Elemento 5:</label>
+                        <input type="text" id="element5" name="element5">
+                    </div>
+                    <div class="filter-element">
+                        <label for="element6">Elemento 6:</label>
+                        <input type="text" id="element6" name="element6">
+                    </div>    
+                </div>
+                <div class="button-container">
+                    <button class="clear-button">Limpar filtro</button>
+                    <button class="apply-button">Aplicar filtro</button>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h1>Listagem de Consultas</h1>
+                <div class="filter-container">
+                    <div class="filter-element_list">
+                        <ol>
+                            <li>ID</li>
+                            <li>Paciente</li>
+                            <li>Status</li>
+                            <li>Data da Consulta</li>
+                            <li>Médico</li>
+                        </ol>
+                        <ul class="unordered-list">
+                            <li>52</li>
+                            <li>João Silva</li>
+                            <li>Confirmada</li>
+                            <li>2024-04-01</li>
+                            <li>Dr. Carlos Oliveira</li>
+                            <li><img src="./assets/crud.png" alt="crud"></li>
+                        </ul>
+                        <ul class="unordered-list">
+                            <li>35</li>
+                            <li>Pedro Paulo</li>
+                            <li>Confirmada</li>
+                            <li>2024-04-03</li>
+                            <li>Dr. João Oliveira</li>
+                            <li><img src="./assets/crud.png" alt="crud"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <button class="cadastrar-button">Cadastrar Nova Consulta</button>
+        <img src="assets/imagem_logo.png" alt="Logo do Aplicativo" class="logo-footer">
+    </footer>
+</body>
+</html>
