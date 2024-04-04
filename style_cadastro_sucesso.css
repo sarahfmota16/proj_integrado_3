@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    margin-top: 0;
 }
 
 #menu-lateral {
@@ -10,11 +11,11 @@ body {
     top: 0;
     width: 270px;
     height: 900px;
-    background-color: #5978E5; /* Cor de fundo azul */
+    background-color: #5978E5; 
     color: #fff;
     padding: 20px;
     box-sizing: border-box;
-    text-align: center; /* Texto centralizado */
+    text-align: center; 
 }
 
 #menu-lateral nav span {
@@ -49,86 +50,91 @@ body {
 }
 
 #menu-lateral nav ul button:hover {
-    background-color: #2980b9; /* Cor de fundo azul mais escura quando hover */
+    background-color: #2980b9; 
 }
 
 #menu-lateral .imagem {
-    width: 200px; /* Definindo a largura da imagem */
-    height: auto; /* Mantendo a proporção da altura automaticamente */
-    justify-content: center; /* Centraliza horizontalmente */
+    width: 200px; 
+    height: auto; 
+    justify-content: center; 
     align-items: center;
 }
 
 .imagem-atendente {
-    width: 100px; /* Definindo a largura da imagem */
-    height: auto; /* Mantendo a proporção da altura automaticamente */
-    display: block; /* Exibir como bloco para aplicar margens automáticas */
-    margin: 0 auto 15px auto; /* Margens automáticas para centralizar a imagem horizontalmente */
+    width: 100px; 
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto; 
     border-radius: 50%;
     overflow: hidden;
 }
 
 
+
 footer {
-    text-align: right; /* Alinha o conteúdo à direita */
-    position: relative; /* Posicionamento relativo para permitir o posicionamento absoluto do conteúdo interno */
-    bottom: 0; /* Coloca o rodapé no final da janela de visualização */
-    width: 100%; /* Largura total */
+    text-align: right;
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    margin-bottom: 10px;
 }
 
 .logo-footer {
-    width: 100px; /* Definindo a largura da imagem */
-    height: auto; /* Mantendo a proporção da altura automaticamente */
-    margin-left: auto; /* Margem à esquerda automática para alinhar à direita */
-    margin-right: 20px; /* Margem à direita para espaçamento */
-    margin-bottom: 10px; /* Margem inferior para espaçamento */
+    width: 100px; 
+    height: auto; 
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .cadastrar-button {
-    background-color: #4CAF50; /* Cor de fundo verde */
-    color: white; /* Cor do texto */
-    padding: 10px 20px; /* Adiciona preenchimento interno */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Adiciona bordas arredondadas */
-    cursor: default; /* Remove o cursor de hiperlink */
-    font-size: 16px; /* Define o tamanho da fonte */
-    position: absolute; /* Posicionamento absoluto */
-    left: 300px; /* Alinha o botão à esquerda */
-    top: 20px; /* Alinha o botão no topo */
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: default; 
+    font-size: 16px; 
+    position: absolute; 
+    left: 300px; 
+    top: 20px; 
 }
 
 .cadastrar-button:hover {
-    background-color: #45a049; /* Altera a cor de fundo ao passar o mouse */
+    background-color: #45a049; 
 }
 
 
 
 .header-content {
-    margin-left: 300px; /* Respeita a margem esquerda */
+    margin-left: 300px; 
     line-height: normal;
     font-size: 100%;
 }
 
 .header-content img {
-    width: 30px; /* Ajusta o tamanho da imagem conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 30px; 
+    height: auto; 
 }
 
 .header-content h1 {
-    margin-top: 10px; /* Adiciona espaço acima do texto */
-    color: #333; /* Cor do texto */
+    margin-top: 10px; 
+    color: #333; 
 }
 
 
 .filter-section {
-    margin: 0 auto; /* Define as margens esquerda e direita automaticamente para centralizar */
-    max-width: 2000px; /* Define a largura máxima do conteúdo para evitar que ele se estenda muito amplamente */
-    padding: 20px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o conteúdo horizontalmente */
-    background-color: #f2f2f2; /* Cor de fundo cinza */
-    border-radius: 10px; /* Bordas arredondadas */
-    margin-left: 200px; /* Recuo de 200px no lado esquerdo */
+    margin: 0 auto; 
+    max-width: 2000px; 
+    padding: 20px; 
+    text-align: center; 
+    background-color: #f2f2f2; 
+    border-radius: 10px; 
+    margin-left: 200px;
 }
 
-
+.cadastrar-button a {
+    text-decoration: none; 
+    color: white; 
+}
 

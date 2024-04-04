@@ -11,11 +11,11 @@ body {
     top: 0;
     width: 270px;
     height: 900px;
-    background-color: #5978E5; /* Cor de fundo azul */
+    background-color: #5978E5;
     color: #fff;
     padding: 20px;
     box-sizing: border-box;
-    text-align: center; /* Texto centralizado */
+    text-align: center;
 }
 
 #menu-lateral nav span {
@@ -50,38 +50,38 @@ body {
 }
 
 #menu-lateral nav ul button:hover {
-    background-color: #2980b9; /* Cor de fundo azul mais escura quando hover */
+    background-color: #2980b9; 
 }
 
 #menu-lateral .imagem {
-    width: 200px; /* Definindo a largura da imagem */
-    height: auto; /* Mantendo a proporção da altura automaticamente */
-    justify-content: center; /* Centraliza horizontalmente */
+    width: 200px;
+    height: auto;
+    justify-content: center; 
     align-items: center;
 }
 
 .imagem-atendente {
-    width: 100px; /* Definindo a largura da imagem */
-    height: auto; /* Mantendo a proporção da altura automaticamente */
-    display: block; /* Exibir como bloco para aplicar margens automáticas */
-    margin: 0 auto 15px auto; /* Margens automáticas para centralizar a imagem horizontalmente */
+    width: 100px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto 15px auto; 
     border-radius: 50%;
     overflow: hidden;
 }
 
 main {
-    margin-left: 250px; /* Margem à esquerda para deixar espaço para o menu lateral */
-    padding: 20px; /* Espaçamento interno */
-    display: flex; /* Exibir como flex container */
+    margin-left: 250px; 
+    padding: 20px; 
+    display: flex;
 }
 
-/* Estilizando as seções dentro do main */
+
 main section {
-    flex: 1; /* Distribuir o espaço disponível igualmente entre as seções */
-    margin-right: 20px; /* Espaçamento entre as seções */
+    flex: 1; 
+    margin-right: 20px; 
 }
 
-/* Estilizando os botões dentro das seções */
+
 main button {
     background: none;
     border: none;
@@ -90,9 +90,9 @@ main button {
     text-align: left;
 }
 
-/* Estilizando as imagens dentro dos botões */
+
 main button img {
-    margin-right: 10px; /* Espaçamento à direita da imagem */
+    margin-right: 10px; 
 }
 
 footer {
@@ -103,49 +103,49 @@ footer {
     text-align: right;
 }
 
-/* Estilizando a imagem do logo no rodapé */
+
 .logo-footer {
-    width: 100px; /* Definindo a largura da imagem */
-    height: auto; /* Mantendo a proporção da altura automaticamente */
-    margin-right: 20px; /* Margem à direita para espaçamento */
-    margin-bottom: 10px; /* Margem inferior para espaçamento */
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
 }
 
 
 
 .botao-section {
-    display: flex; /* Exibir como flex container para colocar os botões lado a lado */
-    justify-content: space-around; /* Distribuir o espaço entre os botões */
+    display: flex; 
+    justify-content: space-around; 
 }
 
 .botao-section button {
-    width: 255px; /* Largura do botão */
-    height: 157px; /* Altura do botão */
-    background-color: #f2f2f2; /* Fundo cinza */
+    width: 255px;
+    height: 157px; 
+    background-color: #f2f2f2; 
     border: none;
     cursor: pointer;
-    display: flex; /* Exibir como flex container */
-    justify-content: center; /* Centralizar horizontalmente */
-    align-items: center; /* Centralizar verticalmente */
-    border-radius: 10px; /* Adicionar bordas arredondadas */
-    padding: 10px; /* Adicionar preenchimento interno */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px; 
+    padding: 10px; 
 }
 
-/* Estilizando as imagens dentro dos botões */
+
 .botao-section button img {
-    width: 55px; /* Largura da imagem (50% do botão) */
-    height: auto; /* Altura automática para manter a proporção */
+    width: 55px; 
+    height: auto; 
 }
 
-/* Estilizando o texto */
+
 .botao-section button h1,
 .botao-section button h2 {
-    margin: 10px 0; /* Adicionar espaço entre h1 e h2 */
+    margin: 10px 0; 
 }
 .botao-section a{
-    text-decoration: none; /* Remove o sublinhado por padrão */
+    text-decoration: none; 
 }
 
 .botao-section a:hover {
-        text-decoration: underline; /* Adiciona o sublinhado quando o mouse está sobre o hiperlink */
+        text-decoration: underline; 
 }

@@ -27,10 +27,10 @@
             <a>Atendente</a>
             <ul>
                 <button><li><a href="./index.html">Início</a></li></button>
-                <button><li><a>Consultas</a></li></button>
-                <button><li><a>Pacientes</a></li></button>
-                <button><li><a>Médicos</a></li></button>
-                <button><li><a>Sair</a></li></button>
+                <button><li><a href="./consultas.html">Consultas</a></li></button>
+                <button><li><a href="./cadastro_paciente.html">Cadastrar Pacientes</a></li></button>
+                <button><li><a href="./cadastro_medico.html">Cadastrar Médicos</a></li></button>
+                <button><li><a href="login.html">Sair</a></li></button>
             </ul>
         </nav>
     </div>
@@ -48,27 +48,27 @@
                 <h1>Filtro de Pesquisa</h1>
                 <div class="filter-container">
                     <div class="filter-element">
-                        <label for="element1">Elemento 1:</label>
+                        <label for="element1">Nome do Paciente:</label>
                         <input type="text" id="element1" name="element1">
                     </div>
                     <div class="filter-element">
-                        <label for="element2">Elemento 2:</label>
-                        <input type="text" id="element2" name="element2">
+                        <label for="element2">Data da Consulta</label>
+                        <input type="text" name="element2" data-format="dd/mm/aaaa">
                     </div>
                     <div class="filter-element">
-                        <label for="element3">Elemento 3:</label>
+                        <label for="element3">Status da Consulta</label>
                         <input type="text" id="element3" name="element3">
                     </div>
                     <div class="filter-element">
-                        <label for="element4">Elemento 4:</label>
+                        <label for="element4">Tipo de Consulta</label>
                         <input type="text" id="element4" name="element4">
                     </div>
                     <div class="filter-element">
-                        <label for="element5">Elemento 5:</label>
+                        <label for="element5">Médico Responsável</label>
                         <input type="text" id="element5" name="element5">
                     </div>
                     <div class="filter-element">
-                        <label for="element6">Elemento 6:</label>
+                        <label for="element6">Id Paciente</label>
                         <input type="text" id="element6" name="element6">
                     </div>    
                 </div>
@@ -111,7 +111,7 @@
         </div>
     </main>
     <footer>
-        <button class="cadastrar-button"> <a href="./cadastrar_consulta.html">Nova Consulta</a></button>
+        <button class="cadastrar-button"> <a href="./cadastrar_consulta.html">Cadastrar Nova Consulta</a></button>
         <img src="assets/imagem_logo.png" alt="Logo do Aplicativo" class="logo-footer">
     </footer>
 </body>
