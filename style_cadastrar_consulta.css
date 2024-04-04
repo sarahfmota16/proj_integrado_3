@@ -232,6 +232,7 @@ footer {
 .filter-element_list ol {
     list-style: none; 
     padding: 0; 
+}
 
 .filter-element_list ol li {
     display: inline-block;
